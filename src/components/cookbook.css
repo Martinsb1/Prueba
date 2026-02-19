@@ -1,0 +1,63 @@
+.cookbook-container {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 20px;
+}
+
+.cookbook-buscador {
+  width: 100%;
+  padding: 12px;
+  border: 2px solid #9edbb3;
+  border-radius: 6px;
+  margin-bottom: 20px;
+}
+
+.cookbook-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 25px;
+}
+
+.tag {
+  padding: 6px 12px;
+  border-radius: 6px;
+  background: #e8f7ec;
+  cursor: pointer;
+  border: none;
+}
+
+.tag.active {
+  background: #9edbb3;
+  font-weight: bold;
+}
+
+.cookbook-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 20px;
+}
+
+.cookbook-card {
+  background: #fff;
+  border-left: 6px solid #9edbb3;
+  padding: 20px;
+  border-radius: 10px;
+  text-decoration: none;
+  color: #2e4d38;
+}
+
+.tag-mini {
+  background: #dff5e4;
+  padding: 4px 8px;
+  border-radius: 6px;
+  margin-right: 5px;
+  font-size: 0.8rem;
+}
+
+.cookbook-detalle pre {
+  background: #f0f7f1;
+  padding: 15px;
+  border-radius: 8px;
+  overflow-x: auto;
+}

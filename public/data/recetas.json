@@ -1,0 +1,64 @@
+[
+  {
+    "slug": "crud-eloquent",
+    "titulo": "Cómo crear un CRUD con Eloquent",
+    "descripcion": "Aprende a crear un CRUD completo usando modelos Eloquent.",
+    "tags": ["eloquent", "crud", "database"],
+    "pasos": [
+      "Crear el modelo y la migración",
+      "Definir los fillable",
+      "Crear el controlador",
+      "Crear las vistas Blade",
+      "Configurar las rutas"
+    ],
+    "codigo": "php artisan make:model Post -m"
+  },
+  {
+    "slug": "proteger-rutas-auth",
+    "titulo": "Cómo proteger rutas con Auth",
+    "descripcion": "Restringe el acceso a rutas usando middleware de autenticación.",
+    "tags": ["auth", "middleware"],
+    "pasos": [
+      "Configurar el sistema de autenticación",
+      "Aplicar el middleware auth",
+      "Redirigir usuarios no autenticados"
+    ],
+    "codigo": "Route::get('/dashboard', function () {})->middleware('auth');"
+  },
+  {
+    "slug": "api-resource",
+    "titulo": "Cómo crear un API Resource",
+    "descripcion": "Transforma modelos en respuestas JSON limpias.",
+    "tags": ["api", "resources", "json"],
+    "pasos": [
+      "Crear el API Resource",
+      "Retornar el recurso desde el controlador",
+      "Probar la respuesta JSON"
+    ],
+    "codigo": "php artisan make:resource PostResource"
+  },
+  {
+    "slug": "tests-basicos",
+    "titulo": "Cómo hacer tests básicos",
+    "descripcion": "Aprende a crear tests de rutas y controladores.",
+    "tags": ["testing", "phpunit"],
+    "pasos": [
+      "Crear un test",
+      "Probar rutas",
+      "Probar controladores"
+    ],
+    "codigo": "php artisan make:test UserTest"
+  },
+  {
+    "slug": "validar-formularios",
+    "titulo": "Cómo validar formularios",
+    "descripcion": "Valida datos de formularios usando Request Validation.",
+    "tags": ["validation", "forms"],
+    "pasos": [
+      "Crear un Form Request",
+      "Definir reglas de validación",
+      "Aplicar el Form Request al controlador"
+    ],
+    "codigo": "php artisan make:request StorePostRequest"
+  }
+]

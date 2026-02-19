@@ -1,0 +1,46 @@
+[
+  {
+    "slug": "gestor-tareas",
+    "titulo": "Gestor de Tareas",
+    "descripcion": "Aplicación CRUD para gestionar tareas.",
+    "stack": "Laravel, Blade, MySQL",
+    "dificultad": "Media",
+    "imagen": "tareas1.png",
+    "objetivo": "Aplicación CRUD completa para gestionar tareas con validación y filtros.",
+    "modulos": ["Routing", "Controllers", "Blade", "Eloquent", "Validation"],
+    "imagenes": ["tareas1.png", "tareas2.png"]
+  },
+  {
+    "slug": "blog-laravel",
+    "titulo": "Blog con Laravel",
+    "descripcion": "Blog con posts, categorías y panel de administración.",
+    "stack": "Laravel, Blade, MySQL",
+    "dificultad": "Media",
+    "imagen": "blog1.png",
+    "objetivo": "Crear un blog con CRUD de posts, categorías y autenticación.",
+    "modulos": ["Auth", "Controllers", "Blade", "Eloquent", "Policies"],
+    "imagenes": ["blog1.png", "blog2.png"]
+  },
+  {
+    "slug": "api-productos",
+    "titulo": "API de Productos",
+    "descripcion": "API REST para gestionar productos.",
+    "stack": "Laravel, API Resources, MySQL",
+    "dificultad": "Alta",
+    "imagen": "api1.png",
+    "objetivo": "Construir una API REST completa con autenticación y documentación.",
+    "modulos": ["Routing", "Controllers", "Eloquent", "API Resources", "Sanctum"],
+    "imagenes": ["api1.png", "api2.png"]
+  },
+  {
+    "slug": "tienda-online",
+    "titulo": "Tienda Online",
+    "descripcion": "E‑commerce básico con carrito y checkout.",
+    "stack": "Laravel, Blade, MySQL, Stripe",
+    "dificultad": "Alta",
+    "imagen": "shop1.png",
+    "objetivo": "Crear una tienda online con carrito, pagos y gestión de productos.",
+    "modulos": ["Controllers", "Blade", "Eloquent", "Validation", "Middleware"],
+    "imagenes": ["shop1.png", "shop2.png"]
+  }
+]

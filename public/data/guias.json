@@ -1,0 +1,62 @@
+[
+  {
+    "slug": "routing",
+    "titulo": "Routing",
+    "descripcion": "Cómo funcionan las rutas y los métodos HTTP.",
+    "contenido": "# Routing\n\nLaravel utiliza un sistema de rutas sencillo y expresivo.\n\n## Ejemplo básico\n```php\nRoute::get('/hola', function () {\n    return 'Hola mundo';\n});\n```\n\n## Conceptos clave\n- Métodos HTTP\n- Parámetros en rutas\n- Rutas con nombre"
+  },
+  {
+    "slug": "mvc",
+    "titulo": "MVC",
+    "descripcion": "Arquitectura Modelo-Vista-Controlador.",
+    "contenido": "# MVC\n\nLaravel sigue el patrón Modelo-Vista-Controlador para organizar el código."
+  },
+  {
+    "slug": "controllers",
+    "titulo": "Controllers",
+    "descripcion": "Controladores y su uso en Laravel.",
+    "contenido": "# Controllers\n\nLos controladores permiten organizar la lógica de tu aplicación."
+  },
+  {
+    "slug": "blade",
+    "titulo": "Blade",
+    "descripcion": "Motor de plantillas de Laravel.",
+    "contenido": "# Blade\n\nBlade es el motor de plantillas de Laravel."
+  },
+  {
+    "slug": "eloquent",
+    "titulo": "Eloquent",
+    "descripcion": "ORM de Laravel para trabajar con la base de datos.",
+    "contenido": "# Eloquent\n\nEloquent es el ORM de Laravel para interactuar con la base de datos."
+  },
+  {
+    "slug": "migrations",
+    "titulo": "Migrations",
+    "descripcion": "Gestión de la base de datos mediante migraciones.",
+    "contenido": "# Migrations\n\nLas migraciones permiten versionar la estructura de la base de datos."
+  },
+  {
+    "slug": "middleware",
+    "titulo": "Middleware",
+    "descripcion": "Filtros y seguridad en Laravel.",
+    "contenido": "# Middleware\n\nLos middleware actúan como filtros para las peticiones HTTP."
+  },
+  {
+    "slug": "validation",
+    "titulo": "Validation",
+    "descripcion": "Validación de datos en Laravel.",
+    "contenido": "# Validation\n\nLaravel ofrece un sistema de validación muy completo."
+  },
+  {
+    "slug": "api",
+    "titulo": "API",
+    "descripcion": "Creación de APIs con Laravel.",
+    "contenido": "# API\n\nLaravel facilita la creación de APIs REST."
+  },
+  {
+    "slug": "auth",
+    "titulo": "Auth",
+    "descripcion": "Autenticación de usuarios.",
+    "contenido": "# Auth\n\nLaravel incluye un sistema de autenticación listo para usar."
+  }
+]

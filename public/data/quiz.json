@@ -1,0 +1,52 @@
+[
+  {
+    "pregunta": "¿Qué comando se usa para crear un nuevo proyecto Laravel?",
+    "opciones": ["composer create-project laravel/laravel proyecto", "php artisan make:project", "laravel init proyecto", "php artisan new laravel"],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Qué carpeta contiene las vistas Blade?",
+    "opciones": ["resources/views", "app/templates", "storage/views", "public/views"],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Qué ORM utiliza Laravel?",
+    "opciones": ["Propel", "Doctrine", "Eloquent", "RedBean"],
+    "correcta": 2
+  },
+  {
+    "pregunta": "¿Qué comando crea un controlador?",
+    "opciones": ["php artisan controller:create", "php artisan make:controller", "php artisan new:controller", "php artisan build:controller"],
+    "correcta": 1
+  },
+  {
+    "pregunta": "¿Qué archivo define las rutas web?",
+    "opciones": ["routes/web.php", "config/routes.php", "routes/api.php", "app/routes.php"],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Qué método HTTP se usa para actualizar un recurso?",
+    "opciones": ["DELETE", "PUT/PATCH", "GET", "POST"],
+    "correcta": 1
+  },
+  {
+    "pregunta": "¿Qué comando ejecuta las migraciones?",
+    "opciones": ["php artisan migrate:run", "php artisan migrate", "php artisan db:run", "php artisan schema:apply"],
+    "correcta": 1
+  },
+  {
+    "pregunta": "¿Qué función devuelve una vista en un controlador?",
+    "opciones": ["template()", "blade()", "view()", "render()"],
+    "correcta": 2
+  },
+  {
+    "pregunta": "¿Qué archivo contiene la configuración principal de la app?",
+    "opciones": ["bootstrap/app.php", "config/app.php", "resources/config.php", "app/config.php"],
+    "correcta": 1
+  },
+  {
+    "pregunta": "¿Qué middleware se usa para verificar usuarios autenticados?",
+    "opciones": ["guest", "verified", "auth", "session"],
+    "correcta": 2
+  }
+]
